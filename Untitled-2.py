@@ -1,0 +1,7 @@
+numeros = [1,4,7,9,11,13,24]
+numero_digitado = int(input("Digite um algarismo:"))
+if numero_digitado in numeros:
+    print(f"O número {numero_digitado} está na lista")
+
+else:
+    print(f"O número {numero_digitado} não está na lista")
